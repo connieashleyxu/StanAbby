@@ -1,0 +1,88 @@
+* {
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  color: #FFF;
+}
+
+.background1 {
+  background: linear-gradient(to bottom, #bedbc9 0%, #e0b1b1 100%);
+}
+
+.background2 {
+  background: #F1C3C3;
+}
+
+.background3 {
+  background: #C3ACCE;
+}
+
+.background4{
+  background: #CF9D27;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.note {
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.content{
+  position: relative;
+  text-align: center;
+  color: white;
+  
+  height: 469px;
+  overflow: hidden;
+}
+
+.content img {
+  transition: transform .5s ease;
+  opacity: 0.7;
+}
+
+.content:hover img {
+  transform: scale(1.5);
+  opacity: 1.0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  text-transform: lowercase;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
